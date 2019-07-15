@@ -22,6 +22,9 @@ vendor.debug.camera.eisv2enable=1
 vendor.debug.camera.eisv3enable=1
 persist.sys.camera.preview.size=1920x1080
 
+# Charger
+ro.charger.enable_suspend=true
+
 # CNE
 persist.vendor.cne.feature=1
 
