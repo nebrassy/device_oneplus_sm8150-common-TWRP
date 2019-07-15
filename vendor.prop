@@ -54,6 +54,9 @@ vendor.qcom.bluetooth.soc=cherokee
 ro.vendor.build.release_type=release
 ro.vendor.build.real.device=true
 
+# Charger
+ro.charger.enable_suspend=true
+
 # Crypto
 ro.crypto.allow_encrypt_override=true
 ro.crypto.volume.filenames_mode=aes-256-cts
