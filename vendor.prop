@@ -68,6 +68,7 @@ ro.vendor.build.real.device=true
 ro.charger.enable_suspend=true
 
 # Camera
+persist.vendor.camera.privapp.list=com.oneplus.factorymode,com.oneplus.camera,com.oem.autotest,com.oneplus.healthcheck
 ro.vendor.camera.res.fmq.size=1048576
 
 # Crypto
