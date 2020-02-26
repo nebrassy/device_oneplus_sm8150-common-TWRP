@@ -98,6 +98,9 @@ vendor.display.enable_optimize_refresh=1
 # DRM
 drm.service.enabled=true
 
+# fastbootd
+ro.fastbootd.available=true
+
 # Fingerprint
 persist.vendor.qfp=true
 
