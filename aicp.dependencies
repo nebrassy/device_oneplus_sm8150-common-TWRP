@@ -12,6 +12,16 @@
   {
     "repository":  "AICP/device_oneplus_settings",
     "target_path": "device/oneplus/settings",
+    "branch": "q10.0"
+  },
+  {
+    "repository":  "AICP/packages_apps_PartsBin",
+    "target_path": "packages/apps/PartsBin",
+    "branch":      "q10.0"
+  },
+  {
+    "repository":  "AICP/packages_resources_deviceparts",
+    "target_path": "packages/resources/deviceparts",
     "branch":      "q10.0"
   }
 ]

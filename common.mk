@@ -206,7 +206,8 @@ PRODUCT_PACKAGES += \
     kmemleak.sh \
     ueventd.rc \
     vendor.oem_ftm.rc \
-    vendor.oem_ftm_svc_disable.rc
+    vendor.oem_ftm_svc_disable.rc \
+    init.aicp-sm8150.rc
 
 # Cryptfshw
 PRODUCT_PACKAGES += \
@@ -445,9 +446,12 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-service \
     thermal.msmnile
 
+# AICP PartsBin
+PRODUCT_PACKAGES += \
+    PartsBin
+
 # tri-state key
 PRODUCT_PACKAGES += \
-    KeyHandler \
     tri-state-key_daemon
 
 #Build libjamesdsp
