@@ -8,5 +8,10 @@
     "repository": "AICP/device_oneplus_common",
     "target_path": "device/oneplus/common",
     "branch": "q10.0"
+  },
+  {
+    "repository":  "AICP/device_oneplus_settings",
+    "target_path": "device/oneplus/settings",
+    "branch":      "q10.0"
   }
 ]
