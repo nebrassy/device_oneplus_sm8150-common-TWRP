@@ -471,6 +471,11 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service \
 
+# Vendor mockup
+PRODUCT_PACKAGES += oneplus-mock
+
+PRODUCT_BOOT_JARS += oneplus-mock
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
