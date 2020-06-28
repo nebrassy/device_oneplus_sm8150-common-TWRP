@@ -372,6 +372,7 @@ vendor/lib64/libvl53l1_daemon.so
 vendor/lib64/sensors.hal.tof.so
 vendor/lib64/vendor.oneplus.camera.CameraHIDL@1.0.so
 vendor/lib64/vendor.oneplus.camera.CameraMDMHIDL@1.0.so
+-app/priv-app/OnePlusCameraService/OnePlusCameraService.apk|ebcc0dce8222a355bf9caf1e8aa6be763e311d8a
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
