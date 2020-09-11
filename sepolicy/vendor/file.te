@@ -31,3 +31,4 @@ type sysfs_vl53l1, sysfs_type, fs_type;
 # Aicp
 type sysfs_fastcharge, fs_type, sysfs_type;
 type sysfs_info, fs_type, sysfs_type;
+type sysfs_wakegestures, fs_type, sysfs_type;
