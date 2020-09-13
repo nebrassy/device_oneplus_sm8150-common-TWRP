@@ -1,3 +1,6 @@
+# APEX
+ro.apex.updatable=true
+
 # Audio
 audio.offload.min.duration.secs=30
 persist.vendor.audio.hac.enable=false
