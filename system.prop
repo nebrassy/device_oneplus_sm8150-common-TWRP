@@ -23,6 +23,9 @@ persist.debug.coresight.config=stm-events
 # DPM
 persist.vendor.dpm.feature=9
 
+# FOD
+vendor.display.disable_mask_layer_hint=1
+
 # GPS
 persist.vendor.overlay.izat.optin=rro
 
