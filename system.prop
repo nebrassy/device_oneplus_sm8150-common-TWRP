@@ -1,6 +1,7 @@
 # Audio
 audio.offload.min.duration.secs=30
 persist.vendor.audio.hac.enable=false
+persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 ro.audio.monitorRotation=true
 
 # Bluetooth
@@ -39,7 +40,6 @@ ro.location.osnlp.region.package=
 
 # Graphics
 debug.sf.enable_hwc_vds=1
-vendor.display.enable_rotator_ui=1
 
 # HWUI
 ro.hwui.drop_shadow_cache_size=6
@@ -53,6 +53,9 @@ ro.hwui.text_small_cache_height=1024
 ro.hwui.text_small_cache_width=1024
 ro.hwui.texture_cache_flushrate=0.4
 ro.hwui.texture_cache_size=72
+
+# IMS
+persist.vendor.ims.disableADBLogs=1
 
 # IO Prefetcher
 vendor.iop.enable_uxe=0
