@@ -6,6 +6,9 @@ allow kernel kmsg_device:chr_file r_file_perms;
 # Allow kernel to search in block_device
 allow kernel block_device:dir search;
 
+# Allow kernel access to blk_file in block_device
+allow kernel block_device:blk_file { open read write };
+
 # Allow kernel to read and write to oem_block_device
 allow kernel oem_block_device:blk_file rw_file_perms;
 

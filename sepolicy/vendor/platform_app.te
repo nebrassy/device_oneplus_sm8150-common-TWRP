@@ -1,2 +1,18 @@
-binder_call(platform_app, hal_dms_default)
+allow platform_app sysfs_graphics:file r_file_perms;
 
+allow platform_app vendor_default_prop:file { read open getattr map };
+
+allow platform_app sysfs_info:dir { search };
+allow platform_app sysfs_info:lnk_file { read };
+allow platform_app sysfs_info:file { open read };
+
+allow platform_app sysfs_battery_supply:dir { search };
+allow platform_app sysfs_battery_supply:file { open getattr read };
+
+allow platform_app sysfs_kgsl:file { open getattr read };
+
+allow platform_app vendor_camera_prop:file { read open getattr map };
+
+allow platform_app hal_dms_hwservice:hwservice_manager find;
+binder_call(platform_app, hal_dms_default)
+#allow platform_app hal_dms_default:binder { call transfer };

@@ -29,4 +29,3 @@ allow hal_audio_default hal_audio_default:capability2 { block_suspend };
 # Allow audio_default to access dolby service
 allow hal_audio_default hal_dms_hwservice:hwservice_manager find;
 binder_call(hal_audio_default, hal_dms_default)
-

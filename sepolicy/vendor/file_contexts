@@ -36,8 +36,8 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@1\.0-service\.oneplus_msmnile                           u:object_r:hal_sensors_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.vibrator@1\.2-service\.oneplus_msmnile                          u:object_r:hal_vibrator_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@1\.0-service                                          u:object_r:hal_dms_default_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.biometrics\.fingerprint\.inscreen@1.0-service\.oneplus_msmnile    u:object_r:hal_lineage_fod_sm8150_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.camera\.motor@1.0-service\.oneplus_msmnile                        u:object_r:hal_lineage_camera_motor_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.biometrics\.fingerprint\.inscreen@1\.0-service\.oneplus_msmnile   u:object_r:hal_lineage_fod_sm8150_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.camera\.motor@1\.0-service\.oneplus_msmnile                       u:object_r:hal_lineage_camera_motor_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.oneplus\.camera\.CameraHIDL@1\.0-service                                   u:object_r:hal_cameraHIDL_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.oneplus\.hardware\.display@1\.0-service                                    u:object_r:hal_display_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.oneplus\.hardware\.drmkey@1\.0-service                                     u:object_r:hal_drm_widevine_exec:s0
@@ -70,18 +70,5 @@
 /sys/module/stmvl53l1(/.*)?                                        u:object_r:sysfs_vl53l1:s0
 /sys/project_info(/.*)?                                            u:object_r:sysfs_project_info:s0
 
-# Custom Equilizer (JamesDSP)
-/vendor/lib/soundfx/libjamesdsp\.so    u:object_r:vendor_file:s0
-/vendor/lib64/soundfx/libjamesdsp\.so    u:object_r:vendor_file:s0
-
-# Aicp PartsBin
-/sys/kernel/fast_charge/force_fast_charge                                                                   u:object_r:sysfs_fastcharge:s0
-/sys/devices/platform/soc/89c000.i2c/i2c-2/2-005a/leds/vibrator/level                                       u:object_r:sysfs_vibrator:s0
-/sys/devices/platform/soc/ae00000\.qcom\,mdss_mdp/drm/card0/card0-DSI-1/native_display_srgb_color_mode      u:object_r:sysfs_dm:s0
-/sys/devices/platform/soc/ae00000\.qcom\,mdss_mdp/drm/card0/card0-DSI-1/hbm                                 u:object_r:sysfs_dm:s0
-/sys/devices/platform/soc/ae00000\.qcom\,mdss_mdp/drm/card0/card0-DSI-1/night_mode                          u:object_r:sysfs_dm:s0
-/sys/devices/platform/soc/ae00000\.qcom\,mdss_mdp/drm/card0/card0-DSI-1/native_display_p3_mode              u:object_r:sysfs_dm:s0
-/sys/devices/platform/soc/ae00000\.qcom\,mdss_mdp/drm/card0/card0-DSI-1/native_display_wide_color_mode      u:object_r:sysfs_dm:s0
-/sys/devices/platform/soc/ae00000\.qcom\,mdss_mdp/drm/card0/card0-DSI-1/dimlayer_bl_en                      u:object_r:sysfs_dm:s0
-/sys/devices/platform/soc/ae00000\.qcom,mdss_mdp/drm/card0/card0-DSI-1/native_display_customer_srgb_mode    u:object_r:sysfs_dm:s0
-/sys/devices/platform/soc/ae00000\.qcom,mdss_mdp/drm/card0/card0-DSI-1/native_display_customer_p3_mode      u:object_r:sysfs_dm:s0
+/sys/kernel/gpu(/.*)?                                              u:object_r:sysfs_info:s0
+/sys/class/power_supply/battery/temp                               u:object_r:sysfs_info:s0
