@@ -278,7 +278,7 @@ PRODUCT_PACKAGES += \
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-hotword.xml
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-hotword.xml
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -434,7 +434,7 @@ PRODUCT_BOOT_JARS += \
     telephony-ext
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/privapp-permissions-ims.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-ims.xml
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-ims.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-ims.xml
 
 # TextClassifier
 PRODUCT_PACKAGES += \
@@ -477,7 +477,7 @@ PRODUCT_PACKAGES += oneplus-mock
 PRODUCT_BOOT_JARS += oneplus-mock
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/privapp-permissions-oem-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-oem-system.xml \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-oem-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-oem-system.xml \
     $(LOCAL_PATH)/configs/permissions/com.oneplus.software.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.oneplus.software.xml \
     $(LOCAL_PATH)/configs/permissions/com.oneplus.software.overseas.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.oneplus.software.overseas.xml
 
@@ -509,4 +509,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/privapp-permissions-wfd.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-wfd.xml
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-wfd.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-wfd.xml
