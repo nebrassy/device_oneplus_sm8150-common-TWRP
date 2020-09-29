@@ -372,7 +372,6 @@ vendor/lib64/libvl53l1_daemon.so
 vendor/lib64/sensors.hal.tof.so
 vendor/lib64/vendor.oneplus.camera.CameraHIDL@1.0.so
 vendor/lib64/vendor.oneplus.camera.CameraMDMHIDL@1.0.so
--app/priv-app/OnePlusCameraService/OnePlusCameraService.apk|ebcc0dce8222a355bf9caf1e8aa6be763e311d8a
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
@@ -1321,8 +1320,6 @@ vendor/radio/qcril_database/upgrade/1_version_intro.sql
 vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql
 vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql
 vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql
-vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
-vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 
 # Telephony (qti-telephony-common) - from DRG - QKQ1.190828.002
 product/framework/qti-telephony-common.jar|b4d187700f279cdbd40e74b4c3be4504f10d8b29
