@@ -66,7 +66,7 @@
     <bool name="config_dual_LTE_capability">true</bool>
 
     <!-- Enable system navigation keys. -->
-    <bool name="config_supportSystemNavigationKeys">true</bool>
+    <bool name="config_supportSystemNavigationKeys">false</bool>
 
     <!-- Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
@@ -128,7 +128,7 @@
        1: Right side -->
     <integer name="config_alertSliderLocation">1</integer>
 
-    <!-- Whether key handler sends intent when changing slider position -->
+    <!-- Whether keyhandler sends intent when changing slider position -->
     <string name="config_alertSliderIntent">com.aicp.device.UPDATE_SLIDER_POSITION</string>
 
     <!-- Shows the required view for in-display fingerprint -->
