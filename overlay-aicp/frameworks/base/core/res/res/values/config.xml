@@ -50,8 +50,34 @@
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">64</integer>
 
+    <!-- Override the default detection behavior for the framework method
+         android.view.ViewConfiguration#hasPermanentMenuKey().
+         Valid settings are:
+         0 - No change. Use the default autodetection behavior.
+         1 - The device DOES have a permanent menu key; ignore autodetection.
+         2 - The device DOES NOT have a permanent menu key; ignore autodetection. -->
+    <integer name="config_overrideHasPermanentMenuKey">2</integer>
+
     <!-- Does the device have a notification/battery LED? -->
     <bool name="config_deviceHasLED">false</bool>
+
+
+    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveNotificationLed">false</bool>
+
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option  -->
+    <bool name="config_intrusiveBatteryLed">false</bool>
+
+    <!-- Does device's LED supports fast charging ?  -->
+    <bool name="config_FastChargingLedSupported">false</bool>
+
+    <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">false</bool>
+
+    <bool name="config_multiColorNotificationLed">false</bool>
+
+    <!-- Boost the brightness on a triple press of the power button -->
+    <integer name="config_triplePressOnPowerBehavior">2</integer>
 
     <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
