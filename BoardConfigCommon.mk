@@ -61,6 +61,10 @@ TARGET_BOARD_PLATFORM := msmnile
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno640
 TARGET_USES_QCOM_BSP := true
 
+# Disable secure discard
+BOARD_SUPPRESS_SECURE_ERASE := true
+BOARD_HAS_LARGE_FILESYSTEM := true
+
 # Properties
 TARGET_ODM_PROP += $(VENDOR_PATH)/odm.prop
 TARGET_SYSTEM_PROP += $(VENDOR_PATH)/system.prop
