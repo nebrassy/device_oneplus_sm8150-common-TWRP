@@ -27,8 +27,6 @@ persist.vendor.dpm.feature=9
 
 # FOD
 vendor.display.disable_mask_layer_hint=1
-# Fingerprint gestures (disabled for in-screen fp)
-sys.fpnav.enabled=0
 
 # GPS
 persist.vendor.overlay.izat.optin=rro
