@@ -1,3 +1,0 @@
-# Allow sensors to read sysfs_project_info
-allow sensors sysfs_project_info:dir { search };
-allow sensors sysfs_project_info:file { read getattr open };
