@@ -208,7 +208,6 @@ PRODUCT_PACKAGES += \
     ueventd.rc \
     vendor.oem_ftm.rc \
     vendor.oem_ftm_svc_disable.rc \
-    init.aicp-sm8150.rc
 
 # Cryptfshw
 PRODUCT_PACKAGES += \
