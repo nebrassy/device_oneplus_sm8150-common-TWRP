@@ -13,8 +13,13 @@ vendor.bluetooth.soc=cherokee
 
 # Camera
 vendor.camera.aux.packagelist=org.lineageos.snap,com.oneplus.factorymode,com.oneplus.camera,com.oneplus.healthcheck
-persist.vendor.camera.privapp.list=com.oneplus.camera
+persist.vendor.camera.privapp.list=com.google.android.GoogleCamera,org.codeaurora.snapcam,com.oneplus.camera
 ro.camera.notify_nfc=0
+persist.camera.eis.enable=1
+persist.camera.is_mode=4
+persist.vendor.camera.oissr.debug=1
+vendor.debug.camera.eisv2enable=1
+vendor.debug.camera.eisv3enable=1
 
 # CNE
 persist.vendor.cne.feature=1
