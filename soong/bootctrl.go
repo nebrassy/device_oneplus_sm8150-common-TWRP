@@ -11,9 +11,17 @@ func bootctrlFlags(ctx android.BaseContext) []string {
 
     var deviceName = ctx.Config().DeviceName()
 
-    if strings.HasPrefix(deviceName, "hotdog") {
-        cflags = append(cflags, "-DUSE_DYNAMIC_PARTITIONS")
-    }
+    switch {
+        case strings.HasPrefix(deviceName, "hotdogg"):
+            cflags = append(cflags, "-DUSE_DYNAMIC_PARTITIONS")
+            break
+        case strings.HasPrefix(deviceName, "hotdogb"):
+            cflags = append(cflags, "-DUSE_DYNAMIC_PARTITIONS")
+            break
+        case strings.HasPrefix(deviceName, "hotdog"):
+            cflags = append(cflags, "-DUSE_DYNAMIC_PARTITIONS")
+            break
+        }
     return cflags
 }
 
