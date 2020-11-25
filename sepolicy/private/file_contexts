@@ -8,10 +8,6 @@
 /(product|system/product)/vendor_overlay/[0-9]+/lib(64)?/hw      u:object_r:vendor_hal_file:s0
 /(product|system/product)/vendor_overlay/[0-9]+/overlay(/.*)?    u:object_r:vendor_overlay_file:s0
 
-# Custom Equalizer (JamesDSP)
-/vendor/lib/soundfx/libjamesdsp\.so      u:object_r:vendor_file:s0
-/vendor/lib64/soundfx/libjamesdsp\.so    u:object_r:vendor_file:s0
-
 # Aicp
 /sys/kernel/fast_charge/force_fast_charge                                                                   u:object_r:sysfs_fastcharge:s0
 
