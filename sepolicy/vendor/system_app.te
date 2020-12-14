@@ -10,3 +10,7 @@ allow system_app sysfs_fastcharge:dir { search };
 allow system_app sysfs_fastcharge:file { rw_file_perms };
 allow system_app proc_touchpanel:dir search;
 allow system_app proc_touchpanel:file rw_file_perms;
+
+# Allow DeviceSettings to read and write to sysfs_wakegestures, to toggle wake gestures of dt2w and s2w
+allow system_app sysfs_wakegestures:dir { search };
+allow system_app sysfs_wakegestures:file { rw_file_perms };
