@@ -2,27 +2,22 @@
   {
     "repository":  "Claymore1297/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "branch":      "q10.0"
   },
   {
     "repository":  "AICP/kernel_oneplus_sm8150",
     "target_path": "kernel/oneplus/sm8150",
-    "branch":      "q10.0"
   },
   {
     "repository":  "AICP/packages_apps_PartsBin",
     "target_path": "packages/apps/PartsBin",
-    "branch":      "q10.0"
   },
   {
     "repository":  "AICP/packages_resources_deviceparts",
     "target_path": "packages/resources/deviceparts",
-    "branch":      "q10.0"
   },
   {
     "repository":  "AICP/device_oneplus_settings",
     "target_path": "device/oneplus/settings",
-    "branch":      "q10.0"
   },
   {
     "repository":  "LineageOS/android_device_oneplus_common",
