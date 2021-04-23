@@ -251,10 +251,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/etc/permissions/android.hardware.fod.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.fod.xml
 
-# For config.fs
-PRODUCT_PACKAGES += \
-    fs_config_files
-
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/etc/gps/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
