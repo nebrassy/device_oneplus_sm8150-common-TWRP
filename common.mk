@@ -496,7 +496,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/etc/sysconfig/oneplus.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/oneplus.xml \
     $(LOCAL_PATH)/configs/etc/sysconfig/preinstalled-packages-platform-handheld-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-handheld-product.xml \
     $(LOCAL_PATH)/configs/etc/sysconfig/preinstalled-packages-platform-overlays.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-overlays.xml \
-    $(LOCAL_PATH)/configs/etc/sysconfig/wellbeing.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/wellbeing.xml
+    $(LOCAL_PATH)/configs/etc/sysconfig/wellbeing.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/wellbeing.xml \
+    $(LOCAL_PATH)/configs/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml
 
 # Vibration
 PRODUCT_COPY_FILES += \
