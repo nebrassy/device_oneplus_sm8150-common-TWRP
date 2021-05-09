@@ -12,10 +12,6 @@
     "target_path": "packages/apps/PartsBin"
   },
   {
-    "repository":  "AICP/packages_resources_deviceparts",
-    "target_path": "packages/resources/deviceparts"
-  },
-  {
     "repository":  "AICP/device_oneplus_settings",
     "target_path": "device/oneplus/settings"
   },
