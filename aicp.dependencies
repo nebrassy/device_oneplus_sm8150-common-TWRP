@@ -8,10 +8,6 @@
     "target_path": "kernel/oneplus/sm8150"
   },
   {
-    "repository":  "AICP/packages_apps_PartsBin",
-    "target_path": "packages/apps/PartsBin"
-  },
-  {
     "repository":  "AICP/device_oneplus_settings",
     "target_path": "device/oneplus/settings"
   },
