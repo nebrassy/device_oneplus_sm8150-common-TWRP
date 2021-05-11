@@ -80,18 +80,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/etc/permissions/android.software.webview.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.webview.xml \
     $(LOCAL_PATH)/configs/etc/permissions/com.oneplus.camera.service.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.oneplus.camera.service.xml \
     $(LOCAL_PATH)/configs/etc/permissions/platform.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/platform.xml \
-    $(LOCAL_PATH)/configs/etc/permissions/com.android.carrierconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.carrierconfig.xml \
-    $(LOCAL_PATH)/configs/etc/permissions/com.android.emergency.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.emergency.xml \
-    $(LOCAL_PATH)/configs/etc/permissions/com.android.settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.settings.xml \
-    $(LOCAL_PATH)/configs/etc/permissions/com.android.storagemanager.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.storagemanager.xml \
-    $(LOCAL_PATH)/configs/etc/permissions/com.android.systemui.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.systemui.xml \
     $(LOCAL_PATH)/configs/etc/permissions/com.oem.feature.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.oem.feature.xml \
     $(LOCAL_PATH)/configs/etc/permissions/privapp-permissions-oem-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-oem-system_ext.xml \
-    $(LOCAL_PATH)/configs/etc/permissions/com.android.settings.intelligence.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.settings.intelligence.xml \
-    $(LOCAL_PATH)/configs/etc/permissions/default-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-google.xml \
     $(LOCAL_PATH)/configs/etc/permissions/privapp-permissions-oem-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-oem-product.xml \
-    $(LOCAL_PATH)/configs/etc/permissions/privapp-permissions-softsim.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-softsim.xml \
-    $(LOCAL_PATH)/configs/etc/permissions/split-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/split-permissions-google.xml
+    $(LOCAL_PATH)/configs/etc/permissions/privapp-permissions-softsim.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-softsim.xml
 
 # ANT+
 PRODUCT_PACKAGES += \
@@ -213,7 +205,7 @@ PRODUCT_PACKAGES += \
 
 # Component overrides
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
+    $(LOCAL_PATH)/configs/etc/sysconfig/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
 # Display
 PRODUCT_PACKAGES += \
