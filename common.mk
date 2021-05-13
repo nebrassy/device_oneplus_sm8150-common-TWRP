@@ -82,7 +82,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/etc/permissions/platform.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/platform.xml \
     $(LOCAL_PATH)/configs/etc/permissions/com.oem.feature.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.oem.feature.xml \
     $(LOCAL_PATH)/configs/etc/permissions/privapp-permissions-oem-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-oem-system_ext.xml \
-    $(LOCAL_PATH)/configs/etc/permissions/privapp-permissions-oem-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-oem-product.xml \
     $(LOCAL_PATH)/configs/etc/permissions/privapp-permissions-softsim.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-softsim.xml
 
 # ANT+
