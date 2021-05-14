@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/oneplus/sm8150-common/sm8150-common-vendor.mk)
+#$(call inherit-product-if-exists, vendor/oneplus/sm8150-common/sm8150-common-vendor.mk)
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
@@ -204,7 +204,6 @@ PRODUCT_PACKAGES += \
     init.qti.dcvs.sh \
     init.qti.qcv.sh \
     init.qti.ufs.rc \
-    init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc \
     vendor.oem_ftm.rc \
@@ -384,7 +383,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     oneplus-fwk
 
-PRODUCT_BOOT_JARS += \
+#PRODUCT_BOOT_JARS += \
     oneplus-fwk
 
 # Power
@@ -454,7 +453,7 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext
 
-PRODUCT_BOOT_JARS += \
+#PRODUCT_BOOT_JARS += \
     telephony-ext
 
 PRODUCT_COPY_FILES += \
@@ -488,7 +487,7 @@ PRODUCT_PACKAGES += \
 # Vendor mockup
 PRODUCT_PACKAGES += oneplus-mock
 
-PRODUCT_BOOT_JARS += oneplus-mock
+#PRODUCT_BOOT_JARS += oneplus-mock
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/etc/permissions/privapp-permissions-oem-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-oem-system.xml \
@@ -552,7 +551,7 @@ PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor
 
-PRODUCT_BOOT_JARS += \
+#PRODUCT_BOOT_JARS += \
     WfdCommon
 
 PRODUCT_COPY_FILES += \
