@@ -16,7 +16,6 @@ persist.vendor.bt.a2dp.aac_whitelist=false
 ro.bluetooth.library_name=libbluetooth_qti.so
 
 # Camera
-persist.vendor.camera.privapp.list=com.google.android.GoogleCamera,org.codeaurora.snapcam,com.oneplus.camera
 ro.camera.notify_nfc=0
 persist.camera.eis.enable=1
 persist.camera.is_mode=4
