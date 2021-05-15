@@ -15,4 +15,5 @@
 <permissions>
     <feature name="com.oneplus.software.oos" />
     <feature name="com.oneplus.software.oos.n_theme_ready" />
+    <feature name="com.oneplus.software.oos.11" />
 </permissions>

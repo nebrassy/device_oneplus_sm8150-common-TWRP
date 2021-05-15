@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<haptic_config_list update-time="2019-07-23 17:54:47">
+    <haptic_config>
+        <package_name_list>
+            <package_name>com.google.android.googlequicksearchbox</package_name>
+        </package_name_list>
+        <duration min_duration="30" max_duration="30"/>
+        <effect>4</effect>
+	</haptic_config>
+
+    <haptic_config>
+        <package_name_list>
+            <package_name>com.xiaomi.smarthome</package_name>
+        </package_name_list>
+        <duration min_duration="100" max_duration="100"/>
+        <effect>3</effect>
+    </haptic_config>
+
+    <haptic_config>
+        <package_name_list>
+            <package_name>com.tencent.mm</package_name>
+        </package_name_list>
+        <duration min_duration="65" max_duration="65"/>
+        <effect>2</effect>
+    </haptic_config>
+
+    <haptic_config>
+        <package_name_list>
+            <package_name>com.yitong.mbank.psbc</package_name>
+        </package_name_list>
+        <duration min_duration="100" max_duration="100"/>
+        <effect>3</effect>
+    </haptic_config>
+
+    <haptic_config>
+        <package_name_list>
+            <package_name>unspecified_package</package_name>
+        </package_name_list>
+        <duration min_duration="-1" max_duration="50"/>
+        <effect>3</effect>
+    </haptic_config>
+</haptic_config_list>

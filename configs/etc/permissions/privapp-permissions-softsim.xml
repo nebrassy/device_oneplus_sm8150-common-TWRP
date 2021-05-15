@@ -1,0 +1,14 @@
+<permissions>
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- AnitaLin 2019/09/23 add permission for Softsim sdk-->
+    <privapp-permissions package="com.redteamobile.virtual.softsim">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.READ_NETWORK_USAGE_HISTORY"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+    </privapp-permissions>
+    <!--#endif /* VENDOR_EDIT */-->
+
+</permissions>
