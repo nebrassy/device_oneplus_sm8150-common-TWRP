@@ -35,8 +35,6 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.neuralnetworks@1\.1-service-qti                                 u:object_r:vendor_hal_neuralnetworks_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@2\.0-service                                          u:object_r:hal_dms_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.biometrics\.fingerprint\.inscreen@1.0-service\.oneplus_msmnile    u:object_r:hal_lineage_fod_sm8150_exec:s0
-#/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service\.oneplus_msmnile                         u:object_r:hal_livedisplay_oneplus_msmnile_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service\.oneplus_msmnile                               u:object_r:hal_lineage_touch_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.oneplus\.hardware\.camera@1\.0-service                                     u:object_r:hal_cameraHIDL_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.oneplus\.hardware\.CameraMDMHIDL@1\.0-service                              u:object_r:hal_cameraHIDL_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.oneplus\.hardware\.display@1\.0-service                                    u:object_r:hal_display_default_exec:s0
@@ -66,9 +64,11 @@
 /sys/module/stmvl53l1(/.*)?                                        u:object_r:sysfs_vl53l1:s0
 /sys/project_info(/.*)?                                            u:object_r:sysfs_project_info:s0
 
+# AICP features access
 /sys/kernel/gpu(/.*)?                                              u:object_r:sysfs_info:s0
 /sys/class/power_supply/battery/temp                               u:object_r:sysfs_info:s0
 /sys/android_touch(/.*)?                                           u:object_r:sysfs_wakegestures:s0
+
 # Sys files (wakeup)
 /sys/devices(/platform)?/soc/(soc:gpio_keys|a600000.ssusb|soc:gpio_keys|18800000.qcom,icnss|88e0000.qcom,msm-eud)/wakeup/wakeup[0-9]+(/.*)? u:object_r:sysfs_wakeup:s0
 /sys/devices(/platform)?/soc/171c0000.slim/tavil-slim-pgd/wakeup/wakeup[0-9]+(/.*)? u:object_r:sysfs_wakeup:s0
