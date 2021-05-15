@@ -424,7 +424,7 @@ PRODUCT_BOOT_JARS += \
     telephony-ext
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/etc/permissions/privapp-permissions-ims.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-ims.xml
+    $(LOCAL_PATH)/configs/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml
 
 # AICP PartsBin
 PRODUCT_PACKAGES += \
@@ -491,7 +491,7 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/etc/permissions/privapp-permissions-wfd.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-wfd.xml
+    $(LOCAL_PATH)/configs/etc/permissions/privapp-permissions-wfd.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-wfd.xml
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
