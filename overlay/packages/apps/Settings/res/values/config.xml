@@ -26,11 +26,9 @@
 
     <!-- Battery Health -->
     <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full</string>
-    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
     <string name="config_batHealth">/sys/class/power_supply/bms/battery_health</string>
     <string name="config_batType">/sys/class/power_supply/bms/battery_type</string>
     <integer name="config_batCurCapDivider">1000</integer>
-    <integer name="config_batDesCapDivider">1000</integer>
     <bool name="config_supportBatteryHealth">true</bool>
 
 </resources>
