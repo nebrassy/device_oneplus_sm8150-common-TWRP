@@ -34,3 +34,6 @@ allow hal_camera_default sysfs:file r_file_perms;
 
 # For boot time GPU access (b/111370628)
 hal_client_domain(hal_camera_default, hal_configstore)
+
+# Allow camera to read over /dev/adsprpc-smd-secure
+allow hal_camera_default vendor_xdsp_device:chr_file r_file_perms;
