@@ -6,6 +6,5 @@ import (
 
 func init() {
     android.RegisterModuleType("oneplus_msmnile_bootctrl_library", bootctrlLibraryFactory)
-    android.RegisterModuleType("oneplus_msmnile_fod_hal_binary", fodHalBinaryFactory)
     android.RegisterModuleType("oneplus_msmnile_sensors_hal_binary", sensorsHalBinaryFactory)
 }
