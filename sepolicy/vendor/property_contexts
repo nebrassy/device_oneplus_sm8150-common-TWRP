@@ -18,6 +18,10 @@ ro.boot.ftm_mode    u:object_r:exported_default_prop:s0
 # Graphics
 ro.gfx.driver.1    u:object_r:exported3_default_prop:s0
 
+# Device Info
+ro.vendor.product.device.db               u:object_r:vendor_db_security_prop:s0
+ro.vendor.product.manufacturer.db         u:object_r:vendor_db_security_prop:s0
+
 # Memplus
 vendor.sys.memplus.    u:object_r:vendor_memplus_prop:s0
 
