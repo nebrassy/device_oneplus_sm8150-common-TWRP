@@ -1,9 +1,5 @@
 [
   {
-    "repository":  "Claymore1297/proprietary_vendor_oneplus",
-    "target_path": "vendor/oneplus"
-  },
-  {
     "repository":  "AICP/kernel_oneplus_sm8150",
     "target_path": "kernel/oneplus/sm8150"
   },
