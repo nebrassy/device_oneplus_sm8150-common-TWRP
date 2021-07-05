@@ -489,7 +489,6 @@ PRODUCT_COPY_FILES += \
 
 # Vibration
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml \
     $(LOCAL_PATH)/configs/etc/inputmethod_duration_map.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/inputmethod_duration_map.xml \
     $(LOCAL_PATH)/configs/etc/vibrator_effect_map.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/vibrator_effect_map.xml \
     $(LOCAL_PATH)/configs/etc/oneplus_short_vibration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/oneplus_short_vibration.xml
