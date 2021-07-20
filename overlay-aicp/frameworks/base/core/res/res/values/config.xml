@@ -142,6 +142,12 @@
     <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
     <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
 
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">true</bool>
+
+    <!-- Defines custom Vendor sensor for pocket detection. -->
+    <string name="config_pocketJudgeVendorSensorName">oneplus.sensor.pocket</string>
+
     <!-- Set this to true to enable the platform's auto-power-save modes like doze and
        app standby.  These are not enabled by default because they require a standard
        cloud-to-device messaging service for apps to interact correctly with the modes
