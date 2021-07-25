@@ -201,6 +201,12 @@
     <!-- Screen brightness when dozing -->
     <integer name="config_screenBrightnessDoze">27</integer>
 
+    <!-- Enable SMS authorization framework. -->
+    <bool name="config_sms_authorization_enabled">true</bool>
+
+    <!-- The duration (in milliseconds) for the outgoing SMS authorization request to timeout.-->
+    <integer name="config_sms_authorization_timeout_ms">15000</integer>
+
     <!-- ComponentName of a dream to show whenever the system would otherwise have
          gone to sleep.  When the PowerManager is asked to go to sleep, it will instead
          try to start this dream if possible.  The dream should typically call startDozing()
