@@ -1,3 +1,2 @@
 # Google camera
-allow untrusted_app vendor_default_prop:file { map };
 allow untrusted_app rootfs:file { read getattr open };

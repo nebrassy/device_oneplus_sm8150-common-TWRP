@@ -1,7 +1,5 @@
 allow platform_app sysfs_graphics:file r_file_perms;
 
-allow platform_app vendor_default_prop:file { read open getattr map };
-
 allow platform_app sysfs_info:dir { search };
 allow platform_app sysfs_info:lnk_file { read };
 allow platform_app sysfs_info:file { open read };

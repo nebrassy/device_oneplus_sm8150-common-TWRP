@@ -5,7 +5,6 @@ get_prop(system_server, vendor_camera_prop)
 
 # Google Camera
 allow system_server vendor_camera_prop:file { read open getattr map };
-allow system_server vendor_default_prop:file { read open getattr map };
 
 # Battery
 r_dir_file(system_server, sysfs_battery_supply)
